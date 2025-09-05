@@ -82,3 +82,12 @@ header {
    
   }
 }
+
+
+.product{
+    .container{
+        .cards{
+            background-color: #a5a3a3;
+        }
+    }
+}
