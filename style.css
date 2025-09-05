@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0e0e0e;
+  .container {
+    border-bottom: #888888 2px solid;
+    padding: 20px 0;
+    @media screen and (max-width: 767px) {
+      padding: 20px 15px;
+    }
+  }
+  h1 {
+    cursor: pointer;
+  }
+  .links {
+    display: flex;
+    gap: 15px;
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #e0e0e0;
+  }
+  i {
+    color: #a7a7a7;
+    cursor: pointer;
+  }
+}
+
+.hero {
+  background-color: #0f0f0f;
+  height: 100vh;
+  overflow: hidden;
+  padding: 30px 0;
+  .container {
+    font-family: "Manrope", sans-serif;
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      h3 {
+        font-size: 1rem;
+        letter-spacing: 9px;
+        color: #888888;
+      }
+      h1 {
+        font-size: clamp(2rem , 5vw , 4rem);
+        color: white;
+        text-transform: uppercase;
+      }
+      p {
+        color: #a5a3a3;
+        width: 55%;
+      }
+      button {
+        width: 160px;
+        height: 48px;
+        color: white;
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: #d87d4a;
+        border: none;
+        border-radius: 7px;
+        transition: .5s;
+        &:hover{
+            background-color: #9b491a;
+        }
+      }
+    }
+   
+  }
+}
