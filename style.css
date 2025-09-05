@@ -87,7 +87,19 @@ header {
 .product{
     .container{
         .cards{
-            background-color: #a5a3a3;
+            padding: 10px;
+            div{
+                width: 100%;
+                padding: 30;
+                background-color: #e0e0e0;
+            }
+            img{
+                position: relative;
+                
+            }
+            .img{
+                width: 35%;
+            }
         }
     }
 }
