@@ -52,7 +52,7 @@ header {
         color: #888888;
       }
       h1 {
-        font-size: clamp(2rem , 5vw , 4rem);
+        font-size: clamp(2rem, 5vw, 4rem);
         color: white;
         text-transform: uppercase;
       }
@@ -73,33 +73,38 @@ header {
         background-color: #d87d4a;
         border: none;
         border-radius: 7px;
-        transition: .5s;
-        &:hover{
-            background-color: #9b491a;
+        transition: 0.5s;
+        &:hover {
+          background-color: #9b491a;
         }
       }
     }
-   
   }
 }
 
+.product {
+  padding: 100px 0;
+  .container {
+    .cards {
+      position: relative;
+      gap: 10px;
+      width: 350px;
+      height: 204px;
+      
+      border-radius: 8px;
 
-.product{
-    .container{
-        .cards{
-            padding: 10px;
-            div{
-                width: 100%;
-                padding: 30;
-                background-color: #e0e0e0;
-            }
-            img{
-                position: relative;
-                
-            }
-            .img{
-                width: 35%;
-            }
-        }
+      background-color: #f1f1f1;
+      padding: 50px 0 0 0;
+
+      img {
+        position: absolute;
+        top: -25%;
+        
+       
+      }
+      .img {
+        width: 35%;
+      }
     }
+  }
 }
