@@ -90,7 +90,7 @@ header {
       gap: 10px;
       width: 350px;
       height: 204px;
-      
+
       border-radius: 8px;
 
       background-color: #f1f1f1;
@@ -99,23 +99,114 @@ header {
       img {
         position: absolute;
         top: -25%;
-        
-       
       }
       .img {
         width: 35%;
       }
-      p{
+      p {
         display: flex;
         gap: 10px;
-        font-size: 1rem;
+        margin-top: 20px;
+        font-size: 0.9rem;
         cursor: pointer;
-        span{
-          font-size: .9rem;
+        span {
+          font-size: 0.9rem;
           font-weight: 900;
-          color: green;
+          color: rgb(128, 0, 6);
         }
       }
+    }
+  }
+}
+
+.speaker {
+  .container {
+    background-image: url("./imag/Group\ 4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    overflow: hidden;
+    background-color: #d87d4a;
+    border-radius: 10px;
+    .img {
+      width: 410.23358154296875px;
+      height: 493px;
+      position: relative;
+      bottom: -25px;
+    }
+    .info {
+      width: 349px;
+      height: 303px;
+
+      h1 {
+        font-size: clamp(2rem, 5vw, 4rem);
+        color: white;
+        text-transform: uppercase;
+      }
+      p {
+        color: #f1f1f1;
+        padding: 10px 10px;
+      }
+      button {
+        width: 160px;
+        height: 48px;
+        color: white;
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: #0a0a0a;
+        border: none;
+        border-radius: 7px;
+        transition: 0.5s;
+        &:hover {
+          background-color: #9b491a;
+        }
+      }
+    }
+  }
+}
+
+.table {
+  padding: 50px 0;
+  .container {
+    height: 320px;
+    background-color:#c9cbcc;
+    overflow: hidden;
+
+    .info {
+      h1 {
+        font-size: clamp(2rem, 5vw, 2rem);
+        color: #0a0a0a;
+        text-transform: uppercase;
+      }
+      button {
+        width: 160px;
+        height: 48px;
+        color: rgb(5, 5, 5);
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: #0a0a0a00;
+        
+        border-radius: 7px;
+        transition: 0.5s;        &:hover {
+          background-color: #0a0a0a;
+            color: rgb(250, 250, 250);
+        }
+      }
+    }
+    .img {
+      width: 900px;
+      transform: scaleX(-1);
+      position: relative;
+      right: -110px;
+      top: -100px;
     }
   }
 }
