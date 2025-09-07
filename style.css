@@ -220,7 +220,7 @@ header {
      height: 500px;
     overflow: hidden;
      padding: 50px 0;
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
       height: 300px;
     }
 
