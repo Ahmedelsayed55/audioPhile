@@ -14,7 +14,19 @@ header {
       padding: 20px 15px;
       border-bottom: #8888888a 2px solid;
     }
+  
   }
+    .lin{
+      a{
+        text-decoration: none;
+        color: #0e0e0e;
+        font-weight: 600;
+        transition: .5s;
+        &:hover{
+          color: #d87d4a;
+        }
+      }
+    }
   h1 {
     cursor: pointer;
   }

@@ -22,7 +22,11 @@
   <body>
     <header class="text-white">
       <div class="container d-flex justify-content-between align-items-center">
-        <i class="fa-solid fa-bars d-sm-block d-md-none fs-1 text-white"></i>
+        <i
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          class="fa-solid fa-bars d-sm-block d-md-none fs-1 text-white"
+        ></i>
         <h1>audiophile</h1>
         <div class="links">
           <a href="#">Home</a>
@@ -31,6 +35,34 @@
           <a href="#">EARPHONES</a>
         </div>
         <i class="fa-solid fa-cart-plus fs-4"></i>
+
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+              audiophile
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="lin d-flex flex-column gap-3 px-5">
+              <a href="#">Home</a>
+              <a href="#">HEADPHONES</a>
+              <a href="#">SPEAKERS</a>
+              <a href="#">EARPHONES</a>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -57,7 +89,7 @@
 
     <section class="product">
       <div
-        class="container d-flex flex-wrap align-items-center justify-content-center "
+        class="container d-flex flex-wrap align-items-center justify-content-center"
       >
         <div
           class="cards d-flex flex-column align-items-center justify-content-center"
@@ -139,7 +171,9 @@
 
     <footer>
       <div class="container d-flex flex-column">
-        <div class="head d-flex align-items-center justify-content-between flex-wrap">
+        <div
+          class="head d-flex align-items-center justify-content-between flex-wrap"
+        >
           <h1>audiophile</h1>
           <div class="links d-flex gap-4">
             <a href="#">Home</a>
@@ -157,15 +191,19 @@
         <div class="icons d-flex align-items-center justify-content-between">
           <p>Copyright 2021. All Rights Reserved</p>
           <div class="icon">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
         </div>
-        </div>
-        
       </div>
     </footer>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
